@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/touchpanel.css">
+    <title>Hi There </title>
+
+
+
+</head>
+<body>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<div class="tablebackground"></div>
+<div  class="textbox" id="titlebox">
+
+    title
+</div>
+
+<table class="maintable" style="width: 80px; height: 80px">
+    <tr>
+        <td class="cell" id="cell_1">1</td>
+        <td class="cell" id="cell_2">2</td>
+        <td class="cell" id="cell_3">3</td>
+        <td class="cell" id="cell_4">4</td>
+    </tr>
+    <tr>
+        <td class="cell" id="cell_5">5</td>
+        <td class="cell" id="cell_6">6</td>
+        <td class="cell" id="cell_7">7</td>
+        <td class="cell" id="cell_8">8</td>
+    </tr>
+    <tr>
+        <td class="cell" id="cell_9">9</td>
+        <td class="cell" id="cell_10">10</td>
+        <td class="cell" id="cell_11">11</td>
+        <td class="cell" id="cell_12"> <a href="http://lothlorien/radio/touchpanel.html">12</a><br></td>
+    </tr>
+</table>
+
+
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+    $(document).ready(function() {
+   //     $('html').css({cursor: 'none'});
+        $(".cell").click(function(event) {
+
+            handleclick(event.target.id);
+
+        });
+
+
+
+
+
+    });
+
+</SCRIPT>
+
+</body>
+</html>

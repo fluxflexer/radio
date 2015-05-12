@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="radio_lothlorien" promptOnLocalOverwrite="false">
+    <serverData>
+      <paths name="radio_lothlorien">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/public_html/radio" local="$PROJECT_DIR$/src" web="/radio" />
+            <mapping deploy="/var/www/public_html/cgi-bin/radio" local="$PROJECT_DIR$/src/cgi-bin" web="/cgi-bin/radio" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

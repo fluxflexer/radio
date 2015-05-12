@@ -1,0 +1,47 @@
+.cell
+{
+	width: 75px;
+	height: 75px;
+	border: 1px solid #000000;
+	/*[empty]background-color:;*/
+	padding: 0px;
+}
+HTML
+{
+}
+
+.tablebackground
+{
+	background-color: #0037FF;
+	width: 314px;
+	height: 235px;
+	margin: -8px;
+	position: absolute;
+	background-image: url(http://lothlorien/radio/img/galaxy.jpg);
+}
+BODY
+{
+}
+.cell
+{
+	text-align: center;
+	font-size: 20.3pt;
+	color: #FFFFFF;
+}
+.maintable
+{
+	table-layout: fixed;
+	margin: -10px;
+	position: absolute;
+}
+BODY
+{
+	background-color: #000000;
+}
+.textbox
+{
+	position: absolute;
+	color: #F9F2F2;
+	width: 288px;
+	height: 25px;
+}
